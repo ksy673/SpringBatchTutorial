@@ -17,6 +17,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * desc: Hello World를 출력
+ * run: --Spring.batch.job.names = helloWorldJob
+ */
 @Configuration
 @RequiredArgsConstructor
 public class HelloWorldJobConfig {
